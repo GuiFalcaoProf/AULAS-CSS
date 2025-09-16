@@ -1,0 +1,42 @@
+#unico{
+    color: rgb(255, 255, 255);
+}
+
+.grupo{
+    background-color: blue;
+    
+}
+
+/* propriedades comuns */
+
+
+/* color 
+    tipos de cores
+    HEX, RGB
+*/
+
+/* background-color 
+    tipos de cores
+    HEX, RGB
+*/
+
+/* text-align
+    center;
+    left;
+    rigth;
+     justify
+*/
+
+
+
+
+
+
+.grupo {
+    color: white;
+    background-color: rgb(34,56,322);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+

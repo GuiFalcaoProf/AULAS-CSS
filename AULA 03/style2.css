@@ -1,0 +1,15 @@
+.caixa {
+  width: 200px;
+  height: 100px;
+  background: lightcoral;
+
+  margin-top: 50px;
+  margin-left: 30px;
+
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+  border: 3px solid #333;
+  color: white;
+  line-height: 100px; /* centraliza verticalmente o texto visualmente */
+}

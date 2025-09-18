@@ -1,0 +1,29 @@
+/* reset mínimo */
+* { box-sizing: border-box; } /* deixamos border-box global para facilitar */
+html,body{ font-family: Arial, sans-serif; padding:20px; }
+
+.row { display:flex; gap:20px; margin-bottom:20px; align-items:flex-start; }
+
+.card {
+  width: 200px;
+  height: 120px;
+  background:#f3f3f3;
+  padding: 20px;
+  border: 8px dashed #6b8;
+  margin: 10px;
+}
+
+/* Demonstrar diferença — forçamos um card com content-box usando override */
+.card-a { box-sizing: content-box; background: #ffe; border-color: #f08; }
+.card-b { box-sizing: border-box; background: #eef; border-color: #08f; }
+
+/* exemplos claros */
+.examples { display:flex; gap:20px; }
+.box {
+  width:200px;
+  padding:20px;
+  border:5px solid #333;
+  margin:10px;
+}
+.example1 { box-sizing: content-box; background:#f9f0f0; }
+.example2 { box-sizing: border-box; background:#f0f9f0; }
